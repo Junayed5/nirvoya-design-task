@@ -5,7 +5,7 @@ import { CiHeart } from 'react-icons/ci'
 
 const Navbar = () => {
     return (
-        <div>
+        <div className='w-[1272px] mx-auto'>
             <div className='flex justify-between'>
                 <div>
                     <img src="https://i.ibb.co/P1dqzww/final-png-1.png" alt="" />
