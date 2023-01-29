@@ -2,7 +2,7 @@ import React from 'react';
 
 const Menubar = () => {
     return (
-        <div className='w-[1272px] mx-auto'>
+        <div className='w-[1400px] mx-auto'>
             <ul className='grid grid-cols-7 w-full text-center'>
                 <li>Women's Fashion</li>
                 <li>men's Fashion</li>

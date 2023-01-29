@@ -3,7 +3,7 @@ import React from 'react';
 const FooterBottom = () => {
     return (
         <div>
-            <div className='w-[1272px] mx-auto grid grid-cols-4 my-8'>
+            <div className='w-[1400px] mx-auto grid grid-cols-4 my-8'>
                 <div>
                     <img src="https://i.ibb.co/P1dqzww/final-png-1.png" alt="" />
                     <p className='w-80 h-20 flex justify-between mt-9'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -43,7 +43,7 @@ const FooterBottom = () => {
                 </div>
             </div>
             <hr />
-            <div className='w-[1272px] mx-auto flex justify-between my-3'>
+            <div className='w-[1400px] mx-auto flex justify-between my-3'>
                 <p className='text-base text-[#757575]'>Projectnirvoya -   © 2021 All Rights Reserved</p>
                 <div className='flex'>
                     <p className='text-[#0198E9CC] pt-1 font-semibold'>Pay With</p>
