@@ -1,11 +1,19 @@
 import React from 'react';
-import { BsMinecartLoaded } from 'react-icons/bs';
 
-const Product = () => {
+const Product = ({ product }) => {
+
+    const {name, img, price,} = product;
+
     return (
         <div className='h-[469px] w-[332px] bg-white rounded-md'>
+
             <div>
-                <img className='ml-3 pt-2' src="https://i.ibb.co/qx19r0t/unsplash-YS6d-Ifm5-Tq-A.png" alt="" />
+                <div className='h-8 w-[91px] text-white text-center rounded-tl-md rounded-bl rounded-r-sm absolute bg-gradient-to-r from-[#FF7A00] to-[#FFB800] ml-2 '>
+                    <p>-25% OFF</p>
+                </div>
+                <div className='w-[315px] h-[315px] bg-[#F2F2F2] ml-2 pt-2 static mt-3 rounded-md'>
+                    <img src={img} alt="" />
+                </div>
             </div>
             <div className='flex my-3 ml-3'>
                 <img src="star.png" alt="" />

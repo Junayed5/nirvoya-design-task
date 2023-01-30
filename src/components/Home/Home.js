@@ -3,8 +3,8 @@ import Footer from '../main/Footer';
 import Menubar from '../main/Menubar';
 import Navbar from '../main/Navbar';
 import Category from './Category';
+import FlashDeal from './FlashDeal';
 import Hero from './Hero';
-import Product from './Product';
 
 const Home = () => {
     return (
@@ -14,8 +14,7 @@ const Home = () => {
             <hr className='mt-4' />
             <Hero/>
             <Category/>
-            <Product/>
-
+            <FlashDeal/>
             <Footer/>
         </div>
     );
