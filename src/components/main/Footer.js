@@ -4,7 +4,7 @@ import FooterBottom from './FooterBottom';
 const Footer = () => {
     return (
         <div className=' bg-white'>
-            <div className='w-[1400px] mx-auto grid grid-cols-4 my-7'>
+            <div className='w-[1400px] mx-auto grid grid-cols-4 my-7 container'>
                 <div className='flex'>
                     <img src="https://i.ibb.co/p4V9H7m/Vector-9.png" alt="" />
                     <div className='pl-4'>

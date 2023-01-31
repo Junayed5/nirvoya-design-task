@@ -13,6 +13,34 @@
   }
 }
 
+@media (min-width: 375px) and (max-width: 428px) {
+  .container-product{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    grid-gap: 0 300px;
+  }
+  .container-category{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    grid-gap: 50px 200px;
+  }
+  .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0,1fr));
+    grid-gap: 30px 0;
+  }
+  .container-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0 20px;
+    /* grid-gap: 30px 0; */
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

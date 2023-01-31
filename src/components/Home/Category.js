@@ -5,7 +5,7 @@ const Category = () => {
     return (
         <div>
             <h2 className='w-[1400px] mx-auto my-7 text-xl font-semibold text-[#383838]'>Category</h2>
-            <div className='w-[1400px] mx-auto grid grid-cols-5 gap-y-5 gap-x-5'>
+            <div className='w-[1400px] mx-auto grid grid-cols-5 gap-y-5 gap-x-5 container-category'>
                 <div className='h-16 w-[270px] bg-white flex gap-2 justify-center rounded-md pt-4'>
                     <img className='w-[30px] h-[30px]' src="catagory (1).png" alt="" />
                     <p className='text-[#394146] font-semibold'>Health & Household</p>

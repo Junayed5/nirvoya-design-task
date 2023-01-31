@@ -3,14 +3,14 @@ import React from 'react';
 const FooterBottom = () => {
     return (
         <div>
-            <div className='w-[1400px] mx-auto grid grid-cols-4 my-8'>
+            <div className='w-[1400px] mx-auto flex justify-between my-8 container-footer'>
                 <div>
                     <img src="https://i.ibb.co/P1dqzww/final-png-1.png" alt="" />
                     <p className='w-80 h-20 flex justify-between mt-9'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
                     <img className='mt-7' src="Follow.png" alt="" />
                 </div>
-                <div className='ml-10'>
+                <div className='ml-10 w-[122px]'>
                     <h3 className='text-lg font-semibold'>QUICK LINKS</h3>
                     <ul className='text-[#333333CC] mt-6'>
                         <li className='py-3'>About us</li>
@@ -32,7 +32,7 @@ const FooterBottom = () => {
                 </div>
                 <div>
                     <h3 className='text-lg font-semibold'>CONTACT</h3>
-                    <p className='text-[#333333CC] mt-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                    <p className='text-[#333333CC] mt-6 w-[340px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
                     <div className='flex gap-4 mt-9'>
                         <img src="headphone.png" alt="" />
                         <div>
