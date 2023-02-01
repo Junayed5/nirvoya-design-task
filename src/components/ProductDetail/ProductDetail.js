@@ -1,15 +1,18 @@
 import React from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
+import DetailBottom from './DetailBottom';
+import Review from './Review';
+import ReviewForm from './ReviewForm';
 
 const ProductDetail = () => {
     return (
-        <div className='w-[1400px] mx-auto'>
+        <div className='w-[1400px] mx-auto bg-[#FAFAFA]'>
             <p className='flex text-[#757575] mt-10 mb-5'>Home <IoIosArrowForward className='mt-1' /> Men’s fashion <IoIosArrowForward className='mt-1' /> Men's Stand Collar Leather Jacket </p>
 
             <div className='flex'>
                 <img src="leftSide.png" alt="" />
 
-                <div>
+                <div className='ml-16'>
                     <h2 className='text-2xl font-semibold'>Super Skinny Rib Trouser & Joggers for Men By <br />
                         Sowdagar Trouser</h2>
 
@@ -48,19 +51,48 @@ const ProductDetail = () => {
                             </div>
                         </div>
                     </div>
+                    <hr />
+                    <div className='my-3'>
+                        <p className='text-lg flex justify-between w-[598px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 
-                    <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-
-                        <ul>
-                            <li> Direct Full Array</li>
-                            <li>Quantum Dot Technology</li>
-                            <li>Ambient Mode</li>
-                            <li> One Remote Control</li>
+                        <ul className='text-lg list-disc list-outside mx-10 my-3'>
+                            <li className='my-2'>Direct Full Array</li>
+                            <li className='my-2'>Quantum Dot Technology</li>
+                            <li className='my-2'>Ambient Mode</li>
+                            <li className='my-2'>One Remote Control</li>
                         </ul>
+                    </div>
+
+                    <div className='flex my-6 mt-8'>
+                        <p className='text-lg font-semibold'>Size</p>
+
+                        <div className='mt-1'>
+                            <span className='text-center text-[#6E6E6F] bg-white px-3 py-1 mx-3 border' >S</span>
+                            <span className='text-center text-white bg-[#0198E9] px-3 py-1 mx-3 border' >M</span>
+                            <span className='text-center text-[#6E6E6F] bg-white px-3 py-1 mx-3 border' >L</span>
+                            <span className='text-center text-[#6E6E6F] bg-white px-3 py-1 mx-3 border' >X</span>
+                            <span className='text-center text-[#6E6E6F] bg-white px-3 py-1 mx-3 border' >XL</span>
+                            <span className='text-center text-[#6E6E6F] bg-white px-3 py-1 mx-3 border' >XXL</span>
+                        </div>
+                    </div>
+
+                    <div className='flex'>
+                        <div className='flex mr-10 my-2'>
+                            <p className='my-2 mr-3'>Quantity: </p>
+                            <button className='h-[34px] w-[26px] bg-[#EFEFEF]'>-</button>
+                            <button className='h-[34px] w-[26px] bg-white'>2</button>
+                            <button className='h-[34px] w-[26px] bg-[#EFEFEF]'>+</button>
+                        </div>
+
+                        <button className='h-[45px] w-[165px] bg-[#0198E9] text-white text-lg'>Add cart</button>
+                        <button className='h-[45px] w-[165px] bg-[#EBF4F9] border border-[#0198E9] text-[#0198E9] text-lg ml-8'>Buy Now</button>
                     </div>
                 </div>
             </div>
+
+            <DetailBottom/>
+            <Review/>
+            <ReviewForm/>
         </div>
     );
 };
