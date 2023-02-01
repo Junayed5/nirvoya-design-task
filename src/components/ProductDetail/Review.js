@@ -1,10 +1,11 @@
 import React from 'react';
+import ReviewForm from './ReviewForm';
 
 const Review = () => {
     return (
-        <div>
-            <div>
-                <img className='px-12' src="Frame .png" alt="" />
+        <div className='bg-white my-10'>
+            <div className='my-8'>
+                <img className='px-12 pt-5' src="Frame .png" alt="" />
             </div>
 
             <div className='mx-12'>
@@ -85,6 +86,8 @@ const Review = () => {
                     </div>
                 </div>
             </div>
+
+            <ReviewForm/>
         </div>
     );
 };
