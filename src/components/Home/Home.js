@@ -8,7 +8,6 @@ import Hero from './Hero';
 const Home = () => {
     return (
         <div className='bg-[#FAFAFA]'>
-            <hr className='mt-4' />
             <Hero/>
             <Category/>
             <FlashDeal/>

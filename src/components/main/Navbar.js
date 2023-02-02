@@ -1,7 +1,7 @@
 import React from 'react';
-import { FiSearch } from 'react-icons/fi';
 import { BsMinecartLoaded, BsPerson, BsSearch } from 'react-icons/bs';
 import { CiHeart } from 'react-icons/ci'
+import Menubar from './Menubar';
 
 const Navbar = () => {
     return (
@@ -34,6 +34,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
+            <Menubar/>
         </div>
     );
 };

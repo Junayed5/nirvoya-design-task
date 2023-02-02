@@ -6,9 +6,9 @@ import Navbar from '../main/Navbar';
 
 const Main = () => {
     return (
-        <div>
+        <div className='bg-[#FAFAFA]'>
             <Navbar/>
-            <Menubar/>
+            <hr className='mt-4' />
             <Outlet/>
             <Footer/>
         </div>
