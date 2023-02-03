@@ -39,6 +39,24 @@
     gap: 0 20px;
     /* grid-gap: 30px 0; */
   }
+  .navbar{
+    position: relative;
+  }
+  .input{
+    width: 380px;
+    position: absolute;
+  }
+  .menubar{
+    width: 100%;
+    display: grid;
+    grid-template-columns:  repeat(3, minmax(0,1fr));
+  }
+  .hero {
+    width: 100%;
+  }
+  .hero2{
+    display: none;
+  }
 }
 
 .App-header {

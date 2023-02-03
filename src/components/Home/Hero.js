@@ -10,10 +10,10 @@ const Hero = () => {
 
                     <button className='w-36 h-11 bg-[#0198E9] text-white font-semibold rounded-md mt-7'>SHOP NOW</button>
                 </div>
-                <img className=' rounded-r-2xl' src="handsome-man.JPG" alt="" />
+                <img className=' rounded-r-2xl' src="handsome.png" alt="" />
             </div>
 
-            <div className='w-[477px]'>
+            <div className='w-[477px] hero2'>
                 <div
                     style={{ backgroundImage: `url('delivery-concept.png')`, backgroundRepeat: "no-repeat", }}
                     className="h-[247px] w-[415px] rounded-2xl mb-14 mt-3"
