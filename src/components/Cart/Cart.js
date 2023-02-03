@@ -27,13 +27,13 @@ const Cart = () => {
                         <h3 className='text-xl font-bold text-[#0198E9]'>৳976.33</h3>
                     </div>
 
-                    <div className='flex my-7 mx-16 gap-2 relative'>
+                    <div className='flex my-7 mx-12 gap-2 relative'>
                         <p className='absolute text-lg ml-11'>SKU 12314124124</p>
                         <div className='flex gap-x-5 items-end mb-3'>
                             <div className='flex bg-white border rounded-md shadow-inner shadow-[#D8D8D8] h-14 w-[120px]'>
-                                <p className='text-3xl pl-3 text-[#D2D2D2] font-bold py-1'>-</p>
-                                <p className='text-2xl px-6 font-semibold text-[#0198E9] py-2'>1</p>
-                                <p className='text-3xl px-1 text-[#D2D2D2] font-bold py-1'>+</p>
+                                <p className='text-3xl pl-3 text-[#D2D2D2] font-bold py-3'>-</p>
+                                <p className='text-2xl px-6 font-semibold text-[#0198E9] py-3'>1</p>
+                                <p className='text-3xl px-1 text-[#D2D2D2] font-bold py-3'>+</p>
                             </div>
                             <div className='h-14 w-[60px] border'>
                                 <img className='w-fit h-fit mx-auto my-3' src="delete.png" alt="" />
@@ -52,13 +52,13 @@ const Cart = () => {
                         <h3 className='text-xl font-bold text-[#0198E9]'>৳976.33</h3>
                     </div>
 
-                    <div className='flex my-7 mx-16 gap-2 relative'>
+                    <div className='flex my-7 mx-12 gap-2 relative'>
                         <p className='absolute text-lg ml-11'>SKU 12314124124</p>
                         <div className='flex gap-x-5 items-end mb-3'>
                             <div className='flex bg-white border rounded-md shadow-inner shadow-[#D8D8D8] h-14 w-[120px]'>
-                                <p className='text-3xl pl-3 text-[#D2D2D2] font-bold py-1'>-</p>
-                                <p className='text-2xl px-6 font-semibold text-[#0198E9] py-2'>1</p>
-                                <p className='text-3xl px-1 text-[#D2D2D2] font-bold py-1'>+</p>
+                                <p className='text-3xl pl-3 text-[#D2D2D2] font-bold py-3'>-</p>
+                                <p className='text-2xl px-6 font-semibold text-[#0198E9] py-3'>1</p>
+                                <p className='text-3xl px-1 text-[#D2D2D2] font-bold py-3'>+</p>
                             </div>
                             <div className='h-14 w-[60px] border'>
                                 <img className='w-fit h-fit mx-auto my-3' src="delete.png" alt="" />
@@ -77,13 +77,13 @@ const Cart = () => {
                         <h3 className='text-xl font-bold text-[#0198E9]'>৳976.33</h3>
                     </div>
 
-                    <div className='flex my-7 mx-16 gap-2 relative'>
+                    <div className='flex my-7 mx-12 gap-2 relative'>
                         <p className='absolute text-lg ml-11'>SKU 12314124124</p>
                         <div className='flex gap-x-5 items-end mb-3'>
                             <div className='flex bg-white border rounded-md shadow-inner shadow-[#D8D8D8] h-14 w-[120px]'>
-                                <p className='text-3xl pl-3 text-[#D2D2D2] font-bold py-1'>-</p>
-                                <p className='text-2xl px-6 font-semibold text-[#0198E9] py-2'>1</p>
-                                <p className='text-3xl px-1 text-[#D2D2D2] font-bold py-1'>+</p>
+                                <p className='text-3xl pl-3 text-[#D2D2D2] font-bold py-3'>-</p>
+                                <p className='text-2xl px-6 font-semibold text-[#0198E9] py-3'>1</p>
+                                <p className='text-3xl px-1 text-[#D2D2D2] font-bold py-3'>+</p>
                             </div>
                             <div className='h-14 w-[60px] border'>
                                 <img className='w-fit h-fit mx-auto my-3' src="delete.png" alt="" />

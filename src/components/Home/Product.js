@@ -5,7 +5,7 @@ const Product = ({ product }) => {
     const { name, img, price, type } = product;
 
     return (
-        <div className='h-[469px] w-[332px] bg-white rounded-md'>
+        <div className='h-[280px] lg:h-[380px] 2xl:h-[469px] w-[186px] lg:w-[245px] 2xl:w-[332px] bg-white rounded-md mb-5'>
 
             <div>
                 {
@@ -13,7 +13,7 @@ const Product = ({ product }) => {
                         <p>-25% OFF</p>
                     </div>
                 }
-                <div className='w-[315px] h-[315px] bg-[#F2F2F2] ml-2 pt-2 static mt-3 rounded-md'>
+                <div className='w-full lg:w-[230px] 2xl:w-[315px] h-full lg:h-[240px] 2xl:h-[315px] bg-[#F2F2F2] ml-2 pt-2 static mt-3 rounded-md'>
                     <img src={img} alt="" />
                 </div>
             </div>
@@ -25,10 +25,10 @@ const Product = ({ product }) => {
                 <img src="star-empty.png" alt="" />
             </div>
 
-            <p className='text-xl text-[#383838] font-semibold pl-3'>{name}</p>
+            <p className='text-lg lg:text-lg 2xl:text-xl text-[#383838] font-semibold pl-3'>{name}</p>
 
             <div className='flex justify-between mx-2'>
-                <p className='text-2xl text-[#0970CD] font-semibold'>{price}</p>
+                <p className='text-2xl text-[#0970CD] font-semibold'>৳{price}</p>
                 <img className='w-6 h-5' src="add-cart.png" alt="" />
             </div>
         </div>

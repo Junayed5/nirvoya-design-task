@@ -12,8 +12,8 @@ const FlashDeal = () => {
 
     return (
         <div>
-            <h1 className='w-[1400px] mx-auto my-7 text-xl font-semibold text-[#383838]'>Flash Deals</h1>
-            <div className='w-[1400px] mx-auto grid grid-cols-4 container-product'>
+            <h1 className='w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto my-7 text-xl font-semibold text-[#383838]'>Flash Deals</h1>
+            <div className='w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto grid grid-cols-2 lg:grid-cols-4 2xl:grid-cols-4 '>
                 {
                     products
                         .filter(product => product.type === "flash")

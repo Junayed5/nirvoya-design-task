@@ -13,7 +13,7 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 428px) {
+/* @media (min-width: 375px) and (max-width: 428px) {
   .container-product{
     width: 100%;
     display: grid;
@@ -37,7 +37,6 @@
     display: flex;
     flex-direction: column-reverse;
     gap: 0 20px;
-    /* grid-gap: 30px 0; */
   }
   .navbar{
     position: relative;
@@ -57,7 +56,7 @@
   .hero2{
     display: none;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
