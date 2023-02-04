@@ -2,8 +2,8 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <div className='w-full lg:w-[1200px] 2xl:w-[1400px] my-6 flex gap-5 lg:mx-5 2xl:mx-auto'>
-            <div className='w-[387px] lg:w-[900px] 2xl:w-[926px] h-[200px] lg:h-[480px] 2xl:h-[564px] bg-[#EBF0F9] flex rounded-2xl'>
+        <div className='w-full lg:w-[1200px] 2xl:w-[1400px] my-6 flex gap-5 lg:mx-5 xl:mx-auto 2xl:mx-auto'>
+            <div className='w-[387px] lg:w-[900px] 2xl:w-[926px] h-[200px] lg:h-[480px] 2xl:h-[550px] bg-[#EBF0F9] flex rounded-2xl'>
                 <div className='w-[184px] lg:w-[486px] 2xl:w-[486px] ml-9 my-auto'>
                     <h2 className='text-xl lg:text-4xl 2xl:text-4xl font-extrabold text-[#0970CD]'>Explore Men’s <br /> Winter Collection</h2>
 
@@ -16,22 +16,22 @@ const Hero = () => {
 
             <div className='hidden lg:block 2xl:block lg:w-[377px] 2xl:w-[477px]'>
                 <div
-                    style={{ backgroundImage: `url('delivery-concept.png')`, backgroundRepeat: "no-repeat", backgroundSize: " 400px 230px " }}
-                    className="h-[230px] w-[400px] rounded-2xl mb-5"
+                    style={{ backgroundImage: `url('delivery-concept.png')`, backgroundRepeat: "no-repeat", }}
+                    className="lg:h-[230px] lg:w-[400px] 2xl:w-[430px] 2xl:h-[260px] rounded-2xl mb-5"
                 >
 
                     <button
-                        className='w-64 h-14 bg-[#FAFAFACC] text-lg text-[#0198E9] font-semibold rounded-md mx-20 mt-40'
+                        className='w-64 h-14 bg-[#FAFAFACC] text-lg text-[#0198E9] font-semibold rounded-md mx-20 lg:mt-40 2xl:mt-44'
                     >Groceries collection</button>
 
                 </div>
                 <div
-                    style={{ backgroundImage: `url('delivery-concept-2.png')`, backgroundRepeat: "no-repeat", backgroundSize: " 400px 230px " }}
-                    className="h-[230px] w-[400px] rounded-2xl"
+                    style={{ backgroundImage: `url('delivery-concept-2.png')`, backgroundRepeat: "no-repeat",  }}
+                    className="lg:h-[230px] lg:w-[400px] 2xl:w-[430px] 2xl:h-[260px] rounded-2xl"
                 >
 
                     <button
-                        className='w-64 h-14 bg-[#FAFAFACC] text-lg text-[#0198E9] font-semibold rounded-md mx-20 mt-40'
+                        className='w-64 h-14 bg-[#FAFAFACC] text-lg text-[#0198E9] font-semibold rounded-md mx-20 lg:mt-40 2xl:mt-44'
                     >Health & Beauty collection</button>
 
                 </div>

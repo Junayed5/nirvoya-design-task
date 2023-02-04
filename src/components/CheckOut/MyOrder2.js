@@ -3,7 +3,7 @@ import React from 'react';
 const MyOrder2 = () => {
     return (
         <div>
-            <div className='h-[785px] w-[439px] bg-white rounded-md pb-9 pt-5 px-8 mx-7'>
+            <div className='h-[785px] lg:w-[380px] 2xl:w-[439px] bg-white rounded-md pb-9 pt-5 px-8 mx-7'>
                 <p className='text-xl text-[#333333] font-bold mb-5'>My Orders</p>
 
                 <div>
@@ -70,7 +70,7 @@ const MyOrder2 = () => {
                         <img className='w-12 h-10' src="rocket.png" alt="" />
                     </div>
                 </div>
-                <button className='h-14 w-96 bg-[#0198E9] text-lg text-white font-bold rounded-md'>PLACE ORDER</button>
+                <button className='h-14 w-80 lg:w-80 2xl:w-96 bg-[#0198E9] text-lg text-white font-bold rounded-md'>PLACE ORDER</button>
             </div>
         </div>
     );

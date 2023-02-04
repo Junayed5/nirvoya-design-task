@@ -4,8 +4,8 @@ import { IoIosArrowForward } from 'react-icons/io'
 const Category = () => {
     return (
         <div>
-            <h2 className='w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto my-7 text-xl font-semibold text-[#383838]'>Category</h2>
-            <div className='w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto grid grid-cols-2 lg:grid-cols-5 2xl:grid-cols-5 gap-y-4 2xl:gap-y-5 gap-x-2 lg:gap-x-0 2xl:gap-x-5'>
+            <h2 className='w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:mx-2 xl:mx-auto 2xl:mx-auto my-7 text-xl font-semibold text-[#383838]'>Category</h2>
+            <div className='w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:mx-1 xl:mx-auto 2xl:mx-auto grid grid-cols-2 lg:grid-cols-5 2xl:grid-cols-5 gap-y-4 2xl:gap-y-5 gap-x-2 lg:gap-x-14 2xl:gap-x-5'>
                 <div className='h-16 w-[190px] lg:w-[250px] 2xl:w-[270px] bg-white flex gap-2 justify-center rounded-md pt-4'>
                     <img className='w-[30px] h-[30px]' src="catagory (1).png" alt="" />
                     <p className='text-[#394146] font-semibold'>Health & Household</p>
